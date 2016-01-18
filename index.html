@@ -562,19 +562,19 @@
                     <p>Vous voulez plus de renseignements, un devis personnalisé ou simplement discuter ? Envoyez-nous vos questions, nous serons ravis d'y répondre.</p>
                 </div>
             </div>
-            <div class="contact-form action="//formspree.io/gbenezat@gmail.com"
-      method="POST"">
+            <form class="contact-form" action="//formspree.io/gbenezat@gmail.com"
+              method="POST">
                 <div class="row">
                     <div class="col-md-4">
                         <div class="form-group add-animation animation-1">
                           <label>Votre nom</label>
-                          <input type="text" value="" placeholder="Willy Wonka" class="form-control">
+                          <input type="text" name="name" value="" placeholder="Willy Wonka" class="form-control">
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="form-group add-animation animation-2">
                             <label>Votre email</label>
-                            <input type="text" value="" placeholder="willy@wonka.com" class="form-control">
+                            <input type="email" name="_replyto" value="" placeholder="willy@wonka.com" class="form-control">
                         </div>
                     </div>
                     <div class="col-md-4">
@@ -589,12 +589,12 @@
                         </div>
                     <div>
                     <div class="col-md-2 col-md-offset-5 col-sm-2 col-sm-offset-5">
-                         <button  class="btn btn-lg btn-black btn-contact">
+                         <input type="submit" class="btn btn-lg btn-black btn-contact">
                             ENVOYER <i class="fa fa-paper-plane"></i>
                          </button>
                     </div>
                 </div>
-            </div>
+            </form>
           </div>
         </div>
       </div>
