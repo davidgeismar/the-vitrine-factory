@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="fr">
 <head>
   <meta charset="utf-8" />
   <link rel="icon" type="image/png" href="assets/img/favicon.ico">
@@ -16,12 +16,15 @@
     <link href="assets/css/bootstrap.css" rel="stylesheet" />
     <link href="assets/css/rubick.css" rel="stylesheet"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href="assets/css/animate.css" rel="stylesheet"/>
 
     <!--     Fonts and icons     -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700' rel='stylesheet' type='text/css'>
     <link href="assets/css/fonts/pe-icon-7-stroke.css" rel="stylesheet">
     <link href="assets/css/fonts/Rubik-Fonts.css" rel="stylesheet" />
+
+    <favicon_link_tag 'assets/img/vitrine/logo.png' >
 </head>
 
 <body>
@@ -42,14 +45,44 @@
             <span class="icon-bar bar2"></span>
             <span class="icon-bar bar3"></span>
         </button>
-        <a href="#" class="navbar-brand">
-          The Vitrine Factory
+        <a href="http://www.thevitrinefactory.com/" class="navbar-brand">
+        <ul class="list-inline">
+          <li class="hidden-xs">The Vitrine Factory</li>
+          <li class="visible-xs">TVF</li>
+        </ul>
         </a>
     </div>
 
-    <div class="collapse navbar-collapse" >
+
+
+    <div class="navbar-scroll-to collapse navbar-collapse" >
       <ul class="nav navbar-nav navbar-right navbar-uppercase">
-            <!-- <li class="social-links">
+            <li>
+                <a href="" data-scroll="true" data-id="#whoWeAre" class="active">
+                    About
+                </a>
+            </li>
+            <li>
+                <a href="" data-scroll="true" data-id="#friends">
+                    Reviews
+                </a>
+            </li>
+            <li>
+                <a href="" data-scroll="true" data-id="#team">
+                    Team
+                </a>
+            </li>
+            <li>
+                <a href="" data-scroll="true" data-id="#numbers">
+                    Numbers
+                </a>
+            </li>
+            <li>
+                <a href="" data-scroll="true" data-id="#contact">
+                    Contact
+                </a>
+            </li>
+            <li class="social-links">
                 <a href="#">
                     <i class="fa fa-facebook"></i>
                 </a>
@@ -58,46 +91,6 @@
                 </a>
                 <a href="#">
                     <i class="fa fa-instagram"></i>
-                </a>
-            </li> -->
-            <li>
-                <a href="" data-scroll="true" data-id="#whoWeAre">
-                    About
-                </a>
-            </li>
-            <li>
-                <a href="" data-scroll="true" data-id="#workflow">
-                    Savoir-faire
-                </a>
-            </li>
-            <li>
-                <a href="" data-scroll="true" data-id="#clients">
-                    Cible
-                </a>
-            </li>
-            <li>
-                <a href="" data-scroll="true" data-id="#projects">
-                    Créations
-                </a>
-            </li>
-            <li>
-                <a href="" data-scroll="true" data-id="#team">
-                    Team
-                </a>
-            </li>
-             <li>
-                <a href="" data-scroll="true" data-id="#numbers">
-                    Tarifs
-                </a>
-            </li>
-            <li>
-                <a href="" data-scroll="true" data-id="#informations">
-                    Informations
-                </a>
-            </li>
-            <li>
-                <a href="" data-scroll="true" data-id="#contact">
-                    Contact
                 </a>
             </li>
        </ul>
@@ -113,7 +106,7 @@
           <div class="pic-filter-1"></div>
             <div class="container">
                  <div class="content">
-                    <!-- <p><span>by </span>Creative Tim</p> -->
+
                     <h1>The Vitrine Factory</h1>
                     <div class="separator-container">
                       <div class="separator line-separator">♦</div>
@@ -373,59 +366,6 @@
         </div>
     </div>
 
-
-
-     <!-- <div class="section section-clients-2" id="clients">
-        <div class="container">
-           <div class="title add-animation">
-               <h2>Friends Together</h2>
-               <div class="separator-container">
-                  <div class="separator line-separator">♦</div>
-               </div>
-         </div>
-         <div class="tab-content quotes add-animation animation-2">
-            <div class="tab-pane active" id="canon">
-               <p class="large">100% of my wardrobe is made of their clothes - that's how good they are! Can you believe it? I just don't need to look somewhere else!</p>
-            </div>
-            <div class="tab-pane" id="samsung">
-                   <p class="large">
-                       I like to feel good in the clothes I wear so I go with the Agency. They provide the slick look that I enjoy everyday. It doesn't matter if I am at work, home or going out, I'm always covered.
-                   </p>
-           </div>
-            <div class="tab-pane" id="sony">
-                  <p class="large">
-                  I wish I found these guys sooner. They helped me discover my style and tailor clothes that fit perfectly. I gotta say I recommend them to anyway that can needs a style boost. </p>
-            </div>
-            <div class="tab-pane" id="intel">
-                  <p class="large">No matter the season, I start it off by a massive buying spree from the Agency. They just keep on creating amazing outfits, I gotta to have them!</p>
-            </div>
-          </div>
-          <ul class="nav nav-text list-logos add-animation animation-2" role="tablist">
-            <li class="active">
-              <a href="../#canon" role="tab" data-toggle="tab">
-                <h3 class="big-text">Tim Jones</h3>
-              </a>
-            </li>
-            <li>
-              <a href="../#samsung" role="tab" data-toggle="tab">
-                <h3 class="big-text">Jack Spring</h3>
-              </a>
-            </li>
-            <li>
-              <a href="../#sony" role="tab" data-toggle="tab">
-                <h3 class="big-text">Helen Bolton</h3>
-              </a>
-            </li>
-             <li>
-              <a href="../#intel" role="tab" data-toggle="tab">
-                <h3 class="big-text">Daniel Claus</h3>
-              </a>
-            </li>
-          </ul>
-
-        </div>
-      </div> -->
-
     <div class="section section-team-2" id="team">
        <div class="container">
          <div class="text-area">
@@ -524,7 +464,7 @@
                    <div class="separator-container">
                       <div class="separator line-separator">♦</div>
                    </div>
-                   <p>Retrouvez-nous dans nos locaux à deux pas de la Concorde et de la Madeleine</p>
+                   <p>Retrouvez-nous dans nos locaux parisiens à quelques pas de la Concorde et de la Madeleine</p>
             </div>
         </div>
     </div>
@@ -572,13 +512,13 @@
                     <div class="col-md-4">
                         <div class="form-group add-animation animation-1">
                           <label>Votre nom</label>
-                          <input type="text" name="Name" value="" placeholder="Willy Wonka" class="form-control">
+                          <input type="text" name="Name" value="" placeholder="Henri Ford" class="form-control">
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="form-group add-animation animation-2">
                             <label>Votre email</label>
-                            <input type="email" name="_replyto" value="" placeholder="willy@wonka.com" class="form-control">
+                            <input type="email" name="_replyto" value="" placeholder="henri@ford.com" class="form-control">
                         </div>
                     </div>
                     <div class="col-md-4">

@@ -1452,3 +1452,10 @@ body > .navbar-collapse .nav > li.buy-now > a{
 .modal textarea:focus{
     outline: none !important;
 }
+
+/*CUSTOM*/
+
+.ola li {
+  padding-left: 0px;
+  padding-right: 0px;
+}
