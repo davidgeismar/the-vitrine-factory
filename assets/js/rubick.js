@@ -291,11 +291,13 @@ rubik = {
                 if(transparent) {
                     transparent = false;
                     $('nav[role="navigation"]').removeClass('navbar-transparent');
+                     $('nav[role="navigation"]').removeClass('navbar-burger');
                 }
             } else {
                 if( !transparent ) {
                     transparent = true;
                     $('nav[role="navigation"]').addClass('navbar-transparent');
+                    $('nav[role="navigation"]').addClass('navbar-burger');
                 }
             }
     }, 17),

@@ -2670,13 +2670,26 @@ body.noscroll {
   height: 100%;
   color: white;
   opacity: 0;
-  background: rgba(0, 0, 0, 0.55);
+}
+
+.small-vignette {
+  background: rgba(0, 0, 0, 0.7);
   -webkit-transition: background 0.5s, opacity 0.5s 0.5s;
   -moz-transition: background 0.5s, opacity 0.5s 0.5s;
   -o-transition: background 0.5s, opacity 0.5s 0.5s;
   -ms-transition: background 0.5s, opacity 0.5s 0.5s;
   transition: background 0.5s, opacity 0.5s 0.5s;
 }
+
+.big-vignette {
+  background: rgba(0, 0, 0, 0.85);
+   -webkit-transition: background 0.5s, opacity 0.5s 0.5s;
+  -moz-transition: background 0.5s, opacity 0.5s 0.5s;
+  -o-transition: background 0.5s, opacity 0.5s 0.5s;
+  -ms-transition: background 0.5s, opacity 0.5s 0.5s;
+  transition: background 0.5s, opacity 0.5s 0.5s;
+}
+
 .section-with-hover .project .over-area:hover {
   opacity: 1;
   -webkit-transition: background 0.25s, opacity 0.25s 0s;
