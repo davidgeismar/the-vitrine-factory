@@ -48,6 +48,13 @@ $(document).ready(function(){
 
     burger_menu = $('nav[role="navigation"]').hasClass('navbar-burger') ? true : false;
 
+    if(window_width < 1200){
+      ('.navbar').addClass('navbar-burger');
+    }
+    if(window_width > 1200){
+      ('.navbar.navbar-burger').removeClass('navbar-burger');
+    }
+
     if (!Modernizr.touch){
         $('body').addClass('no-touch');
         no_touch_screen = true;
